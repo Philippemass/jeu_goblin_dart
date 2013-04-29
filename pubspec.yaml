@@ -1,0 +1,4 @@
+name: tp_equipe_jeu_goblin
+description: A sample web application
+dependencies:
+  browser: any

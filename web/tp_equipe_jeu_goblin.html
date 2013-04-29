@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tp equipe jeu goblin</title>
+    <link rel="stylesheet" href="tp_equipe_jeu_goblin.css">
+  </head>
+  <body>
+    <h1>Jeu goblin</h1>
+    <p> Voici un jeu où il faut utiliser la souris afin d'attraper le plus de goblins possible.</p>
+    <p> Le goblin se déplacera d'une façon aléatoire dans le canvas.</p>
+    <p> À partir du moment où vous appuyez sur 'Start' vous avez 5 secondes pour attraper au moins 10 Goblins. Dépêchez-vous!!</p>
+    <p> Faite attention certains obstacles vous feront perdre des points!</p>
+    <button id='startButton'>Start</button>
+    <button id='restartButton'>Reinitialiser</button>
+    <section>
+        <canvas id='canvas' width='512' height='480'>
+          Your browser does not support canvas!
+          <img id='bgimage' src='hero.png'></img>
+          <img id='hero_img' src='hero.png'></img>
+          <img id='goblin_img' src='monster.png'></img>
+          <img id='obstacle_img' src='obstacle.png'></img>
+        </canvas>
+    </section>
+    <p>Le jeu a été créé par l'équipe composée de: Philippe Massaad, Alexandra Fortier, Charles-Étienne Coulombe-Bouchard</p>
+    <script type="application/dart" src="tp_equipe_jeu_goblin.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>

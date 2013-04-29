@@ -1,0 +1,26 @@
+body {
+  background-color: #F8F8F8;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 15px;
+}
+
+h1 {
+  color: #333;
+  font-family: Garamond;
+  font-size: 40px;
+}
+
+p {
+  color: #333;
+  font-family: Garamond;
+  font-size: 18px;
+  }
+
+#canvas{
+  background-image : url("background.png");
+  cursor:none;
+  margin-left:30px;
+}
