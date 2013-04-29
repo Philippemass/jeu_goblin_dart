@@ -9,7 +9,6 @@ Goblin goblin;
 Hero hero;
 Obstacle obstacle;
 var goblinsCaught = 0;
-var message;
 
 
 
